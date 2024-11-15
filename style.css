@@ -1,11 +1,10 @@
 @import url(https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
 body,html {
     overflow-x: hidden;
-    
+    height: 100%;
+    margin: 0;
+    padding: 0;
   }
-.sb-global-subnav-list{
-  position: fixed !important;
-}
 .navbar {
     padding: 0 40px !important;
     width: auto;
