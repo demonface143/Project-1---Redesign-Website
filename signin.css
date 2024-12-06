@@ -1,0 +1,321 @@
+@import url(https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+
+body,html{
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+}
+.navbar{
+    padding: 20px 40px !important;
+    position: fixed;
+    width: 100%; 
+    z-index: 1000; 
+}
+.nav-link{
+    margin-left: 24px;
+    font-size: 14px;
+    color: black;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    width: 1024px;
+
+}
+.loc a{
+    text-decoration: none;
+    color: black;
+    font-family: Calibri;
+    font-weight: bold;
+}
+.loc a:hover{
+    color: #00754A !important;
+ }
+.btn1{
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    background-color: white;
+    padding: 5px 16px;
+    font-family: Cambria;
+    font-weight: bold;
+}
+.btn2{
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 12px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 8px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.nav-item{
+    list-style: none;
+ }
+ .nav-link{
+     font-family: "Sodo Sans SemiBold";
+ }
+ .nav-link:hover{
+     color: #00754A !important;
+  }
+  .txt h2{
+     margin-top: 110px;
+     font-family: "Sodo Sans SemiBold";
+     font-weight: 900;
+     letter-spacing: -1px;
+  }
+  form{
+     width: 500px;
+     height: 514.63px;
+     border-radius: 20px;
+     box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.38);
+     margin: auto;
+     
+  }
+ 
+  .txt{
+     padding: 48px 40px;
+  }
+  #email,#password{
+     width: 436px;
+     padding: 12px 16px;
+     border-radius: 10px;
+     border:1px solid #a2a2a2;
+     font-size: 19px;
+     color: black;
+     margin-bottom: 16px;
+  }
+ #checkbox{
+     padding: 10px;
+     border: 1px solid #00754A;
+     color: #00754A !important;
+     cursor: pointer;
+     border-radius: 3px;
+ }
+ u{
+     color: #00754A;
+     cursor: pointer;
+ }
+  ::placeholder{
+     color: black;
+  }
+  .mm{
+     position: relative;
+     margin-bottom: 16px;
+  }
+  .form-btn input{
+     font-size: 19px;
+     padding: 18px 24px;
+     background-color: #00754A !important;
+     color: white !important;
+     border: 1px solid #00754A;
+     border-radius: 30px;
+     display: flex !important;
+     justify-content: flex-end !important;
+     align-items: flex-end !important;
+     
+  }
+  .form-btn{
+     display: flex;
+     justify-content: flex-end;
+     align-items: flex-end;
+     align-self: flex-end;
+  }
+  .join-text{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 32px 56px;
+  }
+  .join-btn{
+     padding: 7px 16px;
+     border: 1px solid #00754A;
+     border-radius: 20px;
+     color: #00754A;
+     font-weight: bold;
+     background-color: transparent;
+  }
+  .accordion{
+     display: none;
+  }
+  .footer{
+     padding-top: 24px !important;
+     padding: 0 40px;
+     line-height: 36px;
+     border-top: 1px solid rgb(190, 186, 186);
+     margin-top: 30px;
+   }
+   
+   .footer p{
+     color: rgb(113, 101, 101);
+   }
+   
+   .footer p:hover{
+     color: rgb(14, 14, 14);
+     cursor: pointer;
+   }
+   
+   .careers{
+     line-height: 34px;
+   }
+   .socialimpact{
+     line-height: 44px;
+   }
+   .socialimpact .env{
+     line-height: 19px;
+   }
+   
+   .sb-footer{
+     text-decoration: none;
+     list-style: none;
+     display: flex;
+   }
+   .last-footer{
+     margin-bottom: 160px;
+   }
+   .sb-footer a i{
+     border-radius: 20px !important;
+   }
+   .sb-footer a{
+     font-size: 26px;
+   }
+   .footer-content{
+     padding-bottom: 146px;
+   }
+   .fa-icon-circle {
+     display: inline-flex;       
+     width: 32px;                
+     height: 32px;           
+     align-items: center;          
+     justify-content: center;      
+     border-radius: 50%;         
+     background-color: #000;       
+     color: #fff !important;                  
+     text-decoration: none;            
+   }
+   
+   .fa-icon-circle i {
+     font-size: 20px;             
+     color: #fff !important;                      
+   }
+   .fa-spotify{
+      font-size: 29px;
+   }
+   
+   .sb-footer2 a{
+     text-decoration: none;
+     font-family: Arial;
+     color:#000;
+     
+   }
+   .sb-footer2 a:hover{
+     text-decoration: underline;
+   }
+   .sb-footer2 ul{
+     padding: 0;
+     list-style: none !important;
+   }
+   .sb-footer li{
+     margin-right: 10px;
+   }
+   .paragraph1{
+     text-align: center;
+   }
+   .paragraph2{
+     text-align: center;
+   }
+   #footerparagraph{
+     font-size: 14px;
+     cursor: auto;
+     padding: 16px 0;
+   }
+  @media only screen and (max-width: 768px){
+    .accordion{
+        display: block;
+    }
+    #accordionFlushExample{
+        display: block;
+      }
+      .about{
+        display: none;
+       }
+       .careers{
+        display: none;
+       }
+       .socialimpact{
+        display: none;
+       }
+       .env{
+        display: none;
+       }
+       .fbp{
+        display: none;
+       }
+       .oap{
+        display: none;
+       }
+       .accordion-content li {
+        list-style: none;
+       }
+       .accordion-content a{
+        text-decoration: none;
+        color: #00000094;
+       }
+       .accordion-content{
+        left: 0;
+        padding: 0 !important;
+       }
+       .accordion-body{
+        padding: 15px 20px;
+       }
+       .footer{
+        padding: 0 !important;
+       }
+       form{
+        box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.38);
+       }
+    
+  }
+  @media only screen and (max-width: 500px){
+    #email,#password{
+        width: 80vw;
+
+     }
+   
+  }
+  @media only screen and (max-width:462px){
+    .form-content{
+        width: 400px;
+      }
+    }
+  @media only screen and (max-width:426px){
+    .form-content{
+        width: 350px;
+      }
+  }
+  @media only screen and (max-width:385px){
+    .form-content{
+        width: 300px;
+      }
+      ::placeholder{
+        font-size: 16px;
+     }
+  }
+  @media only screen and (max-width:329px){
+        .form-content{
+            width: 270px;
+          }
+      }
+  @media only screen and (max-width:301px){
+    .form-content{
+        width: 240px;
+       }
+    ::placeholder{
+      font-size: 13px;
+    }
+}
+  
+  

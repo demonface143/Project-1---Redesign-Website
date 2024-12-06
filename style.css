@@ -6,9 +6,9 @@ body,html {
     padding: 0;
   }
 .navbar {
-    padding: 0 40px !important;
-    width: auto;
-    height: 99px;
+    padding: 20px 40px !important;
+    position: fixed !important;
+    width: 100%;
   }
 li{
     font-family: "Sodo Sans SemiBold";

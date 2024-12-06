@@ -1,0 +1,198 @@
+@import url(https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+
+body,html{
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+}
+.navbar{
+    padding: 20px 40px !important;
+    position: fixed;
+    width: 100%; 
+    z-index: 1000;
+}
+.navbar-collapse .show{
+ 
+}
+
+.nav-link{
+    margin-left: 24px;
+    font-size: 14px;
+    color: black;
+}
+.nav-link{
+    font-family: "Sodo Sans SemiBold";
+}
+.loc a{
+    text-decoration: none;
+    color: black;
+    font-family: Calibri;
+    font-weight: bold;
+
+}
+.loc a:hover{
+    color: #00754A !important;
+ }
+.btn1{
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    background-color: white;
+    padding: 5px 16px;
+    font-family: Cambria;
+    font-weight: bold;
+}
+.btn2{
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 12px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 8px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.nav-item{
+   list-style: none;
+}
+.nav-link:hover{
+    color: #00754A !important;
+ }
+ 
+ input{
+    border-bottom: 1px solid black;
+    
+ }
+ .search-container{
+  left: 0;
+  width: 40%;
+  height: 100vh;
+  padding: 24px 40px;
+ }
+ .search-container input{
+  width: 18rem;
+  border: transparent;
+  border-bottom: 1px solid #ddd;
+  
+ }
+ .search-container .search-icon{
+  transform: translateX(-170%) !important;
+  top: 22%;
+  opacity: 0.6;
+ }
+
+ .filter-btn{
+  margin-left: 24px;
+  border: 1px solid #00754A;
+  background-color: transparent;
+  color: #00754A;
+  padding: 7px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+ }
+ .content{
+  padding: 24px 16px 24px 0px;
+  
+ }
+ .readme{
+  padding: 90px 24px 0px 0px;
+  color: #00754A;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ .readme i{
+  font-size: 11px;
+ }
+ iframe{
+  height: 85vh;
+  width: 60vw;
+ }
+ form{
+  margin-top: 100px !important;
+ }
+ @media only screen and (max-width: 991px){
+     body,html{
+
+      overflow-x: hidden;
+     }
+      form{
+        flex-direction: column-reverse;
+      }
+      .md-search{
+        display: block !important;
+      }
+      .navbar{
+        padding-left: 16px !important;
+        padding-right: 16px !important; 
+      }
+      iframe{
+        width: 100vw;
+        height: 40.06vh;
+      }
+      .search-container{
+        width: 100%;
+      }
+      .search-container input{
+        display: none;
+      }
+      .search-container .filter-btn{
+        display: none;
+      }
+      .loc{
+        display: none;
+      }
+      .btn1{
+        display: none;
+      }
+      .btn2{
+        display: none;
+      }
+      .md-search{
+        padding: 16px 16px;
+      }
+      .md-search input{
+        width: 80%;
+        border: transparent;
+        border-bottom: 1px solid #ddd;
+      }
+      .filter-btn{
+        font-size: 2.1vw;
+        margin: 0;
+      }
+      .search-icon{
+       display: none;
+      }
+      .search-icon2{
+        position: relative;
+        transform: translateX(-170%) !important;
+        
+        opacity: 0.6;
+      }
+      .search-container{
+      padding-top: 0;
+      }
+      .readme{
+        padding-top: 24px;
+      }
+      .md-search{
+        margin-top: 90px;
+        padding-bottom: 0;
+      }
+     map{
+      margin-top: -90px !important;
+     }
+     .search-container{
+      overflow-y: scroll !important;
+      height: 250px;
+      
+     }
+  
+ }
+
+ @media only screen and (max-width: 426px){
+  .md-search input{
+    width: 70%;
+  }
+  .filter-btn{
+    font-size: 9px;
+  }
+ }
