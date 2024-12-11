@@ -109,6 +109,57 @@ body,html{
  form{
   margin-top: 100px !important;
  }
+ .md-btn1{
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  background-color: white;
+  padding: 5px 16px;
+  font-family: Cambria;
+  font-weight: bold;
+  margin-right: 15px;
+}
+a,.md-btn1{
+  text-decoration: none;
+}
+.md-btn2{
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 12px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 8px 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.btns .md-btn1,.md-btn2 {
+  display: none !important;
+}
+.nav-item2{
+  display: none;
+}
+.md-hr{
+  display: none;
+  padding: 0;
+}
+@media only screen and (max-width: 992px){
+  .btns .md-btn1,.md-btn2 {
+    display: block !important;
+  }
+  .nav-item2{
+    display: block;
+    
+  }
+  .nav-item2 a{
+    text-decoration: none;
+    color: black;
+  }
+  .md-hr{
+    display: block;
+    padding: 0;
+    
+  }
+}
  @media only screen and (max-width: 991px){
      body,html{
 
@@ -187,12 +238,26 @@ body,html{
      }
   
  }
-
- @media only screen and (max-width: 426px){
+ @media only screen and (max-width: 432px){
   .md-search input{
-    width: 70%;
+    width: 70vw !important;
   }
   .filter-btn{
     font-size: 9px;
   }
  }
+@media only screen and (max-width: 373px){
+  .md-search input{
+    width: 60vw !important;
+  }
+}
+@media only screen and (max-width: 280px){
+  .md-search input{
+    width: 50vw !important;
+  }
+}
+@media only screen and (max-width: 224px){
+  .md-search input{
+    width: 30vw !important;
+  }
+}
